@@ -1,0 +1,151 @@
+$bootstrap-icons-font: "bootstrap-icons" !default;
+$bootstrap-icons-font-src: url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?757e8d3807317fad54e5811fd78f18c8")
+    format("woff2"),
+  url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?757e8d3807317fad54e5811fd78f18c8")
+    format("woff") !default;
+
+.imagen-shadow {
+  color: rgba(255, 255, 255, 0);
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.48921566917782733) 69%,
+    rgba(0, 0, 0, 0.3015405991498161) 100%
+  );
+  color: white;
+  bottom: 0%;
+  width: 100%;
+  height: 41%;
+}
+
+.responsive-img {
+  height: 40vh;
+  width: 30vw;
+}
+.error {
+  position: absolute;
+  color: red;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.error-span {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+@keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+.pagination__link {
+  color: red;
+}
+.pagination__link--active {
+  color: brown;
+}
+.paginacion {
+  font-size: 2rem;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+.hv-100 {
+  height: 100vh;
+}
+.shadow-box {
+  box-shadow: 0px 3px 8px 1px white;
+}
+.boton {
+  list-style: none;
+  display: inline-block;
+}
+.text-end {
+  text-align: end;
+}
+.textbox{
+  height: 200px;
+}
+.textbox::placeholder{
+  line-height: 100px;
+}
+
+$body-bg: #000;
+$body-color: white;
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons";
+@import "../node_modules/sweetalert2/src/sweetalert2.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
